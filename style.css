@@ -1,0 +1,43 @@
+.until {
+  margin: 25px;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 1em;
+  background: #364fc7;
+  border-radius: 0 0 5px rgba(0, 0, 0, 0.3);
+  font-family: sans-serif;
+}
+
+.until--component {
+  text-align: center;
+  background: #ffff;
+  border-radius: 5px;
+}
+
+.until--numeric {
+  color: #333333;
+  padding: 0.5em 0;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.until--unit {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  color: #a61e4d;
+}
+
+.until--container {
+  grid-column: span 4;
+  text-align: center;
+  color: #ffff;
+}
+
+p {
+  font-weight: bold;
+  color: #dbe4ff;
+  padding: 1em;
+}
